@@ -1,0 +1,38 @@
+/* GENERAL PAGE STYLING */
+body {
+  background: linear-gradient(to bottom right, #724343, #a73030);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN WEATHER CARD */
+.weather-card {
+  background: rgba(156, 10, 10, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(96, 58, 202, 0.2);
+  text-align: center;
+}
+
+/* ICON STYLE */
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* INPUT + BUTTON AREA */
+.input-group input {
+  border-radius: 10px 0 0 10px !important;
+}
+
+.input-group button {
+  border-radius: 0 10px 10px 0 !important;
+}
+
+/* RESPONSIVE (f*
